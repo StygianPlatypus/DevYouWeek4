@@ -288,15 +288,23 @@ namespace WhileLoops
             
             
             
-            ////Prints out the multiplication tables from 1 up to the user input, n
+            ////Prints out the multiplication tables from 1 up to the user input, n. The program won't allow the user to enter a number that will cause integer overflow.
             //Console.WriteLine("Enter a number to get a multiplication table that goes as high as the number itself.");
             //int n = Int32.Parse(Console.ReadLine());
             //int x = 1;
             //while (x <= n)
             //{
-            //    int y = (n * x);
-            //    Console.WriteLine($"{n} times {x} is equal to {y}");
-            //    x++;
+            //    if (n > 46340)
+            //    {
+            //        Console.WriteLine("If a number larger than 46340 is used, it will cause overflow. Please enter a smaller number.");
+            //        n = Int32.Parse(Console.ReadLine());
+            //    }
+            //    else
+            //    {                  
+            //        int y = (n * x);
+            //        Console.WriteLine($"{n} times {x} is equal to {y}");
+            //        x++;                    
+            //    }
             //}
             
 
