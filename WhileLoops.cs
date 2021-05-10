@@ -283,8 +283,22 @@ namespace WhileLoops
             //Console.WriteLine($"{y}");
 
 
-
-
+            
+            
+            
+            
+            
+            ////Prints out the multiplication tables from 1 up to the user input, n
+            //Console.WriteLine("Enter a number to get a multiplication table that goes as high as the number itself.");
+            //int n = Int32.Parse(Console.ReadLine());
+            //int x = 1;
+            //while (x <= n)
+            //{
+            //    int y = (n * x);
+            //    Console.WriteLine($"{n} times {x} is equal to {y}");
+            //    x++;
+            //}
+            
 
 
 
